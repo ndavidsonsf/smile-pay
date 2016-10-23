@@ -70,17 +70,17 @@ h1 {
 }
 
 .cell {
-  font-size: 150%;
+  font-size: 18px;
   position: relative;
-  border-style: solid;
-  margin-bottom: -3px;
+  margin: 1px;
   display: inline-block;
   float: left;
-  margin-left: -3px;
   top: -45px;
   height: 10vh;
-  width: 33%;
+  width: 32%;
   background-color: #FE8453;
+  text-align: center;
+  padding-top: 3%;
 }
 
 .tender-items-container {
