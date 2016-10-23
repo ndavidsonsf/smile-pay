@@ -17,7 +17,8 @@
 
 h1 {
   position: relative;
-  left: 800px;
+  text-align: right;
+  margin-right: 2%;
 }
 
 .combined-container {
@@ -33,6 +34,7 @@ h1 {
   width: 66%;
   display: inline-block;
   float: left;
+  padding-left: 3%;
 }
 .user-name{
   position: relative;
