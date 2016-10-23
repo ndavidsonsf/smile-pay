@@ -100,7 +100,7 @@ h1 {
   height: 15px;
   border: 1px solid black;
   display: inline-block;
-  float: left;
+  /*float: left;*/
 
   width: 10px;
 
