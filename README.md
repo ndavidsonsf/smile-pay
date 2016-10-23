@@ -19,7 +19,7 @@ No one likes long lines that move at a snail's pace. What if you could just show
 </ul>
 
 <h2>Screenshot</h2>
-http://hackathon.io.s3.amazonaws.com/screenshots/images/000/003/202/original/Screen_Shot_2016-10-23_at_8.48.33_AM.png?1477237782
+<img src="http://hackathon.io.s3.amazonaws.com/screenshots/images/000/003/202/original/Screen_Shot_2016-10-23_at_8.48.33_AM.png?1477237782">
 
 
 
