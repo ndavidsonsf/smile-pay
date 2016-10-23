@@ -1,3 +1,6 @@
+.loader{
+  display: relative;
+}
 .cam {
   display: inline-block;
   margin-left: 50px;
