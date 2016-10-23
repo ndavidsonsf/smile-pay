@@ -18,6 +18,9 @@ No one likes long lines that move at a snail's pace. What if you could just show
 <li>User has a seamless experience at a local store</li>
 </ul>
 
+<h2>Screenshot</h2>
+http://hackathon.io.s3.amazonaws.com/screenshots/images/000/003/202/original/Screen_Shot_2016-10-23_at_8.48.33_AM.png?1477237782
+
 
 
 
@@ -28,6 +31,4 @@ No one likes long lines that move at a snail's pace. What if you could just show
   <li><a href="www.github.com/milliechan">Millie Chan</li>
   <li><a href="www.github.com/holixsf">Luis De Castro</li>
   <li><a href="www.github.com/ndavisonsf">Nicholas Davidson</li>
-
-
 </ul>
