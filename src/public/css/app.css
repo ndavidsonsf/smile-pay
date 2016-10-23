@@ -3,10 +3,21 @@
     display: inline-block;
     font-size: 165%;
     padding: 18px;
+}
 
+h1 {
+  position: relative;
+  left: 800px;
+}
+
+.user-name{
+  position: relative;
+  top: 55px;
 }
 
 .prof-pic {
+  position:relative;;
+    top: 70px;
     height: 20px;
     width: 20px;
 }
@@ -14,17 +25,20 @@
 .row2-grid {
   display: flex;
   flex-wrap: wrap;
-
   justify-content: space-around;
 }
 
 .cell {
-  flex: 0 0 32%;
+  position:relative;;
+    top: 260px;
+  border-style: solid;
+  padding: 20px;
+  flex: 0 0 30%;
   height: 50px;
   margin-bottom: 5px;
-  background-color: #999;
+  /*background-color: #999;*/
 }
 
-.cell:nth-child(3n) {
+/*.cell:nth-child(3n) {
   background-color: #999;
-}
+}*/
