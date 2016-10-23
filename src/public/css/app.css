@@ -55,7 +55,8 @@ h1 {
 
 .prof-pic {
   position: relative;;
-  width: 40vh;
+  width: 200px;
+  height: 200px;
 }
 
 .row2-grid {
