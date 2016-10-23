@@ -18,13 +18,16 @@
       <button type="button" class="btn btn-warning btn-block">Lunch</button>
     </div>
     <div class="col-xs-2">
-        <button type="button" class="btn btn-warning btn-block">Whole Beans</button>
+      <button type="button" class="btn btn-warning btn-block">Whole Beans</button>
     </div>
   </div>
 
   <div class="row">
     <div class="col-xs-6">
       <div class="">
+
+        <!--         <img class="loader" src="http://perronimg.com/loading-gifs/green/animations/green-circle-loading-animation-large.gif"> -->
+
         <div id="my_camera"></div>
         <!-- <div id="my_result"></div> -->
         <!-- <img class="millie" src="https://media.licdn.com/media/AAEAAQAAAAAAAAVDAAAAJDQwMWNiYmUzLWI3MjktNDVlYy1hNzUxLWViOTIxMjhiZDc5MQ.jpg"> -->
@@ -32,6 +35,9 @@
           <span class="glyphicon glyphicon-camera"></span>
         </button>
       </div>
+
+
+
       <div class="payments">
         <button class="btn btn-primary methods"><span class="glyphicon glyphicon-usd"></span></button>
         <button class="btn btn-primary methods"><span class="glyphicon glyphicon-credit-card"></span></button>
@@ -113,16 +119,29 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Smile Pay</h4>
+
+          <h4 class="text-center modal-title" id="myModalLabel">Pay with a Smile!</h4>
         </div>
-        <div class="modal-body" id="my_result">
+        <div class="text-center modal-body" id="my_result">
 
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" id="payment" class="btn btn-success">Process Payment</button>
-        </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+
       </div>
     </div>
   </div>
+
+
 </div>
+  <div style="display: none" class="icon icon--order-success svg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="72px" height="72px">
+            <g fill="none" stroke="#8EC343" stroke-width="2">
+              <circle cx="36" cy="36" r="35" style="stroke-dasharray:240px, 240px; stroke-dashoffset: 480px;"></circle>
+              <path d="M17.417,37.778l9.93,9.909l25.444-25.393" style="stroke-dasharray:50px, 50px; stroke-dashoffset: 0px;"></path>
+            </g>
+          </svg>
+
+        </div>
