@@ -25,9 +25,13 @@
   <div class="row">
     <div class="col-xs-6">
       <div class="">
-        <img class="millie" src="https://media.licdn.com/media/AAEAAQAAAAAAAAVDAAAAJDQwMWNiYmUzLWI3MjktNDVlYy1hNzUxLWViOTIxMjhiZDc5MQ.jpg">
-        <img class="loader" src="http://perronimg.com/loading-gifs/green/animations/green-circle-loading-animation-large.gif">
-          <button type="button" class="cam btn btn-danger btn-lg">
+
+<!--         <img class="loader" src="http://perronimg.com/loading-gifs/green/animations/green-circle-loading-animation-large.gif"> -->
+
+        <div id="my_camera"></div>
+        <!-- <div id="my_result"></div> -->
+        <!-- <img class="millie" src="https://media.licdn.com/media/AAEAAQAAAAAAAAVDAAAAJDQwMWNiYmUzLWI3MjktNDVlYy1hNzUxLWViOTIxMjhiZDc5MQ.jpg"> -->
+        <button type="button" class="cam btn btn-danger btn-lg">
           <span class="glyphicon glyphicon-camera"></span>
         </button>
       </div>
@@ -105,6 +109,25 @@
         <button class="btn btn-warning num">8</button>
         <button class="btn btn-warning num">9</button>
         <button class="btn btn-warning num">0</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        </div>
+        <div class="modal-body" id="my_result">
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
       </div>
     </div>
   </div>
