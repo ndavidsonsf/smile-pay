@@ -1,4 +1,14 @@
-#row1-li li {
+.app-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#menu-items {
+  display: block;
+  background: aquamarine;
+}
+#menu li {
     border-style: solid;
     display: inline-block;
     font-size: 165%;
@@ -10,35 +20,88 @@ h1 {
   left: 800px;
 }
 
+.combined-container {
+  width: 100%;
+}
+
+.kairos-container {
+  height: 50%;
+}
+.payments-container {
+  background: blueviolet;
+  height: 100vh;
+  width: 66%;
+  display: inline-block;
+  float: left;
+}
 .user-name{
   position: relative;
-  top: 55px;
+}
+
+.snap-shot{
+  position: relative;
+  left: 350px;
+  top: 70px;
+  padding: 15px;
+  border-style: solid;
+  width: 170px;
 }
 
 .prof-pic {
-  position:relative;;
-    top: 70px;
+  position: relative;;
     height: 20px;
     width: 20px;
 }
 
 .row2-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  /*justify-content: space-around;*/
+  display: block;
+  float: left;
 }
 
 .cell {
+  font-size: 160%;
   position:relative;;
-    top: 260px;
+  border-style: solid;
+  flex: 0 0 30%;
+  height: 60px;
+  margin-bottom: 5px;
+  display: inline-block;
+  float: left;
+}
+
+.tender-items-container {
+  width: 34%;
+  background: red;
+  height: 100%;
+  display: inline-block;
+  float: left;
+}
+/*.calculator {
+  font-size: 160%;
+  position:relative;;
+    top: 300px;
   border-style: solid;
   padding: 20px;
   flex: 0 0 30%;
-  height: 50px;
+  height: 60px;
   margin-bottom: 5px;
   /*background-color: #999;*/
+/*}*/
+.items{
+  height: 40%;
+  border: 1px solid black;
+  background: white;
 }
 
-/*.cell:nth-child(3n) {
-  background-color: #999;
-}*/
+.num{
+  height: 15px;
+  border: 1px solid black;
+  display: inline-block;
+  float: left;
+
+  width: 10px;
+
+}
