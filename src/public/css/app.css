@@ -4,9 +4,13 @@
   overflow: hidden;
 }
 
-#menu-items {
-  display: block;
-  /*background: aquamarine;*/
+.btn {
+  /*padding: 15px!important;*/
+  /*margin: 15px!important;*/
+}
+
+.menu-items {
+  /*padding: 15px;*/
 }
 #menu li {
     display: inline-block;
@@ -155,5 +159,6 @@ img {
   height: 100%;
 }
 
-p img.millie { float: auto;
- }
+p img.millie {
+  float: auto;
+}
