@@ -9,11 +9,13 @@
   /*background: aquamarine;*/
 }
 #menu li {
-    border-style: solid;
     display: inline-block;
-    font-size: 165%;
+    font-size: 14px;
     padding: 18px;
+    width: 13vw;
     background-color: #FE8453;
+    text-align: center;
+
 }
 
 h1 {
