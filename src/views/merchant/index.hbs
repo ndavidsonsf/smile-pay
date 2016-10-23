@@ -1,99 +1,107 @@
-<div class="container">
+<div class="container-fluid">
   <h1>Clover</h1>
 
   <div class="row">
-    <div class="col-xs-12">
-      <div class="btn-group">
-        <button type="button" class="btn btn-warning">Espresso</button>
-        <button type="button" class="btn btn-warning">Tea</button>
-        <button type="button" class="btn btn-warning">Blended</button>
-        <button type="button" class="btn btn-warning">Bakery</button>
-        <button type="button" class="btn btn-warning">Lunch</button>
-        <button type="button" class="btn btn-warning">Whole Beans</button>
-      </div>
+    <div class="col-xs-2">
+      <button type="button" class="btn btn-warning btn-block">Espresso</button>
+    </div>
+    <div class="col-xs-2">
+      <button type="button" class="btn btn-warning btn-block">Tea</button>
+    </div>
+    <div class="col-xs-2">
+      <button type="button" class="btn btn-warning btn-block">Blended</button>
+    </div>
+    <div class="col-xs-2">
+      <button type="button" class="btn btn-warning btn-block">Bakery</button>
+    </div>
+    <div class="col-xs-2">
+      <button type="button" class="btn btn-warning btn-block">Lunch</button>
+    </div>
+    <div class="col-xs-2">
+        <button type="button" class="btn btn-warning btn-block">Whole Beans</button>
     </div>
   </div>
 
-  <div class="combined-container">
-    <div class="payments-container">
-      <div class="user-name">
-        <h2>Millie Chan</h2>
-      </div>
-
-      <div class="kairos-container">
-        <div class="prof-pic">
-          <img class="millie" src="https://media.licdn.com/media/AAEAAQAAAAAAAAVDAAAAJDQwMWNiYmUzLWI3MjktNDVlYy1hNzUxLWViOTIxMjhiZDc5MQ.jpg">
-        </div>
-
-        <button class="snap-shot" id="scan">
-          Smile Pay
+  <div class="row">
+    <div class="col-xs-6">
+      <div class="">
+        <img class="millie" src="https://media.licdn.com/media/AAEAAQAAAAAAAAVDAAAAJDQwMWNiYmUzLWI3MjktNDVlYy1hNzUxLWViOTIxMjhiZDc5MQ.jpg">
+        <button type="button" class="cam btn btn-danger btn-lg">
+          <span class="glyphicon glyphicon-camera"></span>
         </button>
       </div>
-
-
-      <div class="row2-grid">
-        <div class="cell">Debit/Credit</div>
-        <div class="cell">Cash</div>
-        <i class="cell fa fa-btc" aria-hidden="true"></i>
-        <div class="cell">Discounts</div>
-        <div class="cell">$8.00</div>
-        <div class="cell">$10.00</div>
+      <div class="payments">
+        <button class="btn btn-primary methods"><span class="glyphicon glyphicon-usd"></span></button>
+        <button class="btn btn-primary methods"><span class="glyphicon glyphicon-credit-card"></span></button>
+        <button class="btn btn-primary methods"><span class="glyphicon glyphicon-btc"></span></button>
+        <button class="btn btn-primary methods"><span class="glyphicon glyphicon-heart-empty"></span></button>
+        <button class="btn btn-primary methods"><span class="glyphicon glyphicon-gift"></span></button>
+        <button class="btn btn-primary methods"><span class="glyphicon glyphicon-search"></span></button>
       </div>
     </div>
-  </div>
-
-  <div class="tender-items-container">
-     <div class="items">
-       <table class=style="width:100%">
+    <div class="col-xs-6">
+      <table class="table table-hover">
+        <thead>
           <tr>
-            <th>Qty</th>
-            <th>Item</th>
-            <th>Price</th>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th class="text-center">Price</th>
+            <th class="text-center">Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="col-md-9"><em>Baked Rodopa</em></td>
+            <td class="col-md-1" style="text-align: center"> 2 </td>
+            <td class="col-md-1 text-center">$13</td>
+            <td class="col-md-1 text-center">$26</td>
           </tr>
           <tr>
-            <td>1</td>
-            <td>Med Drip</td>
-            <td>$2.25</td>
+            <td class="col-md-9"><em>Lebanese Cabbage Salad</em></h4></td>
+            <td class="col-md-1" style="text-align: center"> 1 </td>
+            <td class="col-md-1 text-center">$8</td>
+            <td class="col-md-1 text-center">$8</td>
           </tr>
           <tr>
-            <td>1</td>
-            <td>Muffin</td>
-            <td>$3.75</td>
-          </tr>
-        </table>
-        <table style="width:100%">
-          <tr>
-            <th>Sub-total</th>
-            <th>Tax</th>
-            <th>Total</th>
+            <td class="col-md-9"><em>Baked Tart with Thyme and Garlic</em></h4></td>
+            <td class="col-md-1" style="text-align: center"> 3 </td>
+            <td class="col-md-1 text-center">$16</td>
+            <td class="col-md-1 text-center">$48</td>
           </tr>
           <tr>
-            <td>Sub-total</td>
-            <td>Tax</td>
-            <td>Total</td>
+            <td>   </td>
+            <td>   </td>
+            <td class="text-right">
+              <p>Subtotal:</p>
+              <p>Tax:</p>
+            </td>
+            <td class="text-center">
+              <p>$6.94</p>
+              <p>$6.94</p>
+            </td>
           </tr>
           <tr>
-            <td>Eve</td>
-            <td>Jackson</td>
-            <td>94</td>
+            <td>   </td>
+            <td>   </td>
+            <td class="text-right"><h4><strong>Total:</strong></h4></td>
+            <td class="text-center text-danger"><h4><strong>$31.53</strong></h4></td>
           </tr>
-        </table>
-
-     </div>
-     <div class="calculator">
-       <div class="num">1</div>
-       <div class="num">2</div>
-       <div class="num">3</div>
-       <div class="num">4</div>
-       <div class="num">5</div>
-       <div class="num">6</div>
-       <div class="num">7</div>
-       <div class="num">8</div>
-       <div class="num">9</div>
-       <div class="num">Clear</div>
-       <div class="num">0</div>
-       <div class="num">Enter</div>
-       </div>
-     </div>
+        </tbody>
+      </table>
+      <div class="calculator">
+        <button class="btn btn-warning num">1</button>
+        <button class="btn btn-warning num">2</button>
+        <button class="btn btn-warning num">3</button>
+        <button class="btn btn-warning num">Clear</button>
+        <button class="btn btn-warning num">4</button>
+        <button class="btn btn-warning num">5</button>
+        <button class="btn btn-warning num">6</button>
+        <button class="btn btn-warning num">Enter</button>
+        <button class="btn btn-warning num">7</button>
+        <button class="btn btn-warning num">8</button>
+        <button class="btn btn-warning num">9</button>
+        <button class="btn btn-warning num">0</button>
+      </div>
+    </div>
   </div>
 </div>
