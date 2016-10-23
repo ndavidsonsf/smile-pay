@@ -26,9 +26,9 @@ No one likes long lines that move at a snail's pace. What if you could just show
 
 <h2>Our Team</h2>
 <ul>
-  <li><a href="www.github.com/aaronkim5">Aaron Kim</li>
-  <li><a href="www.github.com/klvngnn">Kelvin Gann</li>
-  <li><a href="www.github.com/milliechan">Millie Chan</li>
-  <li><a href="www.github.com/holixsf">Luis De Castro</li>
-  <li><a href="www.github.com/ndavisonsf">Nicholas Davidson</li>
+<li><a href="www.github.com/aaronkim5">Aaron Kim</a></li>
+  <li><a href="www.github.com/klvngnn">Kelvin Gann</a></li>
+  <li><a href="www.github.com/milliechan">Millie Chan</a></li>
+  <li><a href="www.github.com/holixsf">Luis De Castro</a></li>
+  <li><a href="www.github.com/ndavisonsf">Nicholas Davidson</a></li>
 </ul>
