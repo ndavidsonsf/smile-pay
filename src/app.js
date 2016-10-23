@@ -7,6 +7,8 @@ var routes = require('./routes/index');
 var merchant = require('./routes/merchant');
 var customer = require('./routes/customer');
 
+var dotenv = require('dotenv')
+dotenv.load()
 var app = express();
 
 // view engine setup

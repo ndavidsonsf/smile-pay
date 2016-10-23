@@ -8,6 +8,11 @@ $(document).ready(function () {
   $('.cam').click(function () {
     take_snapshot()
     $('#myModal').modal()
+
+    $.get('/merchant/pay', function(data) {
+      console.log('hit ajax')
+      console.log(data)
+    })
   })
   Webcam.set({
     width: 320,
