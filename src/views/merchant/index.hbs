@@ -1,0 +1,147 @@
+<div class="container-fluid">
+  <h1>Clover</h1>
+
+  <div class="row">
+    <div class="col-xs-2">
+      <button type="button" class="btn btn-warning btn-block">Espresso</button>
+    </div>
+    <div class="col-xs-2">
+      <button type="button" class="btn btn-warning btn-block">Tea</button>
+    </div>
+    <div class="col-xs-2">
+      <button type="button" class="btn btn-warning btn-block">Blended</button>
+    </div>
+    <div class="col-xs-2">
+      <button type="button" class="btn btn-warning btn-block">Bakery</button>
+    </div>
+    <div class="col-xs-2">
+      <button type="button" class="btn btn-warning btn-block">Lunch</button>
+    </div>
+    <div class="col-xs-2">
+      <button type="button" class="btn btn-warning btn-block">Whole Beans</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-6">
+      <div class="">
+
+        <!--         <img class="loader" src="http://perronimg.com/loading-gifs/green/animations/green-circle-loading-animation-large.gif"> -->
+
+        <div id="my_camera"></div>
+        <!-- <div id="my_result"></div> -->
+        <!-- <img class="millie" src="https://media.licdn.com/media/AAEAAQAAAAAAAAVDAAAAJDQwMWNiYmUzLWI3MjktNDVlYy1hNzUxLWViOTIxMjhiZDc5MQ.jpg"> -->
+        <button type="button" class="cam btn btn-danger btn-lg">
+          <span class="glyphicon glyphicon-camera"></span>
+        </button>
+      </div>
+
+
+
+      <div class="payments">
+        <button class="btn btn-primary methods"><span class="glyphicon glyphicon-usd"></span></button>
+        <button class="btn btn-primary methods"><span class="glyphicon glyphicon-credit-card"></span></button>
+        <button class="btn btn-primary methods"><span class="glyphicon glyphicon-btc"></span></button>
+        <button class="btn btn-primary methods"><span class="glyphicon glyphicon-heart-empty"></span></button>
+        <button class="btn btn-primary methods"><span class="glyphicon glyphicon-gift"></span></button>
+        <button class="btn btn-primary methods"><span class="glyphicon glyphicon-search"></span></button>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th class="text-center">Price</th>
+            <th class="text-center">Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="col-md-9"><em>Baked Rodopa</em></td>
+            <td class="col-md-1" style="text-align: center"> 2 </td>
+            <td class="col-md-1 text-center">$13.00</td>
+            <td class="col-md-1 text-center">$26.60</td>
+          </tr>
+          <tr>
+            <td class="col-md-9"><em>Lebanese Cabbage Salad</em></h4></td>
+            <td class="col-md-1" style="text-align: center"> 1 </td>
+            <td class="col-md-1 text-center">$8.38</td>
+            <td class="col-md-1 text-center">$8.89</td>
+          </tr>
+          <tr>
+            <td class="col-md-9"><em>Baked Tart with Thyme and Garlic</em></h4></td>
+            <td class="col-md-1" style="text-align: center"> 3 </td>
+            <td class="col-md-1 text-center">$16.75</td>
+            <td class="col-md-1 text-center">$48.99</td>
+          </tr>
+          <tr>
+            <td>   </td>
+            <td>   </td>
+            <td class="text-right">
+              <p>Subtotal:</p>
+              <p>Tax:</p>
+            </td>
+            <td class="text-center">
+              <p>$56.94</p>
+              <p>$86.94</p>
+            </td>
+          </tr>
+          <tr>
+            <td>   </td>
+            <td>   </td>
+            <td class="text-right"><h4><strong>Total:</strong></h4></td>
+            <td class="text-center text-danger"><h4><strong>$31.53</strong></h4></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="calculator">
+        <button class="btn btn-warning num">1</button>
+        <button class="btn btn-warning num">2</button>
+        <button class="btn btn-warning num">3</button>
+        <button class="btn btn-warning num">Clear</button>
+        <button class="btn btn-warning num">4</button>
+        <button class="btn btn-warning num">5</button>
+        <button class="btn btn-warning num">6</button>
+        <button class="btn btn-warning num">Enter</button>
+        <button class="btn btn-warning num">7</button>
+        <button class="btn btn-warning num">8</button>
+        <button class="btn btn-warning num">9</button>
+        <button class="btn btn-warning num">0</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+          <h4 class="text-center modal-title" id="myModalLabel">Pay with a Smile!</h4>
+        </div>
+        <div class="text-center modal-body" id="my_result">
+
+        </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+
+      </div>
+    </div>
+  </div>
+
+
+</div>
+  <div style="display: none" class="icon icon--order-success svg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="72px" height="72px">
+            <g fill="none" stroke="#8EC343" stroke-width="2">
+              <circle cx="36" cy="36" r="35" style="stroke-dasharray:240px, 240px; stroke-dashoffset: 480px;"></circle>
+              <path d="M17.417,37.778l9.93,9.909l25.444-25.393" style="stroke-dasharray:50px, 50px; stroke-dashoffset: 0px;"></path>
+            </g>
+          </svg>
+
+        </div>
