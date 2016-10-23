@@ -1,5 +1,8 @@
 .loader{
-  display: relative;
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 65px;
 }
 .cam {
   display: inline-block;
@@ -8,6 +11,7 @@
 }
 
 .millie {
+  position: relative;
   border: 2px solid black;
   margin-top: 50px;
   margin-left: 50px;
