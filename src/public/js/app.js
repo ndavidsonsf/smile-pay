@@ -6,7 +6,18 @@ $(document).ready(function () {
   // })
   $('.cam').click(function () {
   	take_snapshot()
-  	$('#myModal').modal()
+  	$('#myModal').modal();
+  	$('#my_result').addClass('scanning');
+  	setTimeout(function (){
+  	$('#my_result').removeClass('scanning');
+    }, 4 * 1000);
+    setTimeout(function(){
+    	$(".icon--order-success").show().appendTo($("#my_result")).css({ "padding-top": "20px" })
+    }, 5500)
+    setTimeout(function(){
+    	$(".icon--order-success").append("<p>Transaction Successful!</p>")
+    })
+
   })
   Webcam.set({
   	width: 320,
@@ -15,7 +26,9 @@ $(document).ready(function () {
   	jpeg_quality: 90
   });
 
-  Webcam.attach( '#my_camera' );
+  Webcam.attach('#my_camera');
+ 
+
 });
 
 function take_snapshot() {
@@ -23,7 +36,7 @@ function take_snapshot() {
 		document.getElementById('my_result').innerHTML = '<img src="'+data_uri+'"/>';
 	});
 }
-});
+
 
 
 
