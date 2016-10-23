@@ -2,9 +2,21 @@
 No one likes long lines that move at a snail's pace. What if you could just show up, get the items you want, and leave? With SmilePay you can you do just that. Show up, place your order, and pay with your smile.
 
 <h2>Design</h2>
+<ul>
+<li>With First Data as a sponsor, it was essential for us to use Clover POS on the Android Nexus 7</li>
+<li>Kairos API for facial recognition</li>
+<li>Payeezy API for credit card transactions</li>
+<li>React Native</li>
+</ul>
 
 
 <h2>Incorporated User Stories</h2>
+<ul>
+<li>User creates profile account with saved photo</li>
+<li>User takes a picture from merchants POS at the point of purchase</li>
+<li>If picture matches, user will make a transactional payment with their smile through facial recognition</li>
+<li>User has a seamless experience at a local store</li>
+</ul>
 
 
 
