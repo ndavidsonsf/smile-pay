@@ -1,5 +1,5 @@
 <h2>Description</h2>
-
+No one likes long lines that move at a snail's pace. What if you could just show up, get the items you want, and leave? With SmilePay you can you do just that. Show up, place your order, and pay with your smile.
 
 <h2>Design</h2>
 
