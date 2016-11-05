@@ -1,36 +1,42 @@
-<h2>Description</h2>
-No one likes long lines that move at a snail's pace. What if you could just show up, get the items you want, and leave? With SmilePay you can you do just that. Show up, place your order, and pay with your smile.
+![SmilePay](./src/public/images/smilepaylogo.png)
+# SmilePay
+> *Ditch the cards, pay with your smile*
 
-<h2>Design</h2>
-<ul>
-<li>With First Data as a sponsor, it was essential for us to use Clover POS on the Android Nexus 7</li>
-<li>Kairos API for facial recognition</li>
-<li>Payeezy API for credit card transactions</li>
-<li>React Native</li>
-</ul>
+## Problem/Solution
+Everyone has had their morning ruined when you walk into your local coffee house and the line is to the door. You stand there --- annoyed.  You think to yourself, "man, these are the slowest baristas ever!"
+
+Can I let you in on a little secret, the problem isn't that well oiled machine working behind the counter, it's you.  Well not you, because you are always ready to order your medium half calf latte with your credit card in hand, but it is the 20 other people in front of you who fumble through their pockets for some form of payment.
+
+As an operations manager turned engineer I have seen this problem.  I have lived it.  Its painful.
+
+So what do we do?  In a world where cash is no longer the standard and consumers are saturated with payment options how can we take it one step further?  To make it stream-lined and secure for the consumer and fast for the merchant.  Because lets be real, time is transactions and transactions are money.
+
+The solution, Smile Pay.  All you have to do is register for our service, input your payment information and profile picture, and smile.  You can now walk into your favorite places, shop, and pay without the hassle of cash, your phone, or wallet.  Quick, secure, seamless --- allowing you to more with those pearly whites.
+
+## Built With
+* node.js
+* HTML/CSS with Bootstrap
+* JavaScript with jQuery
+* ReactNative
+* Andriod Studio
+* Kairos API, Payeezy API
+* CloverPOS
+
+## In Action
+![SmilePay - web view](./src/public/images/smilepay1.png)
+*Figure 1*. Web View 1
+
+![SmilePay - web view](./src/public/images/smilepay2.png)
+*Figure 1*. Web View 2
 
 
-<h2>Incorporated User Stories</h2>
-<ul>
-<li>User creates profile account with saved photo</li>
-<li>User takes a picture from merchants POS at the point of purchase</li>
-<li>If picture matches, user will make a transactional payment with their smile through facial recognition</li>
-<li>User has a seamless experience at a local store</li>
-</ul>
+## Contributors
+- [Nicholas Davidson](https://github.com/ndavidsonsf)
+- [Millie Chan](https://github.com/milliechan)
+- [Luis De Castro](https://github.com/holixsf)
+- [Kelvin Gann](https://github.com/klvngnn)
+- [Aaron Kim](https://github.com/aaronkim5)
 
-<h2>Screenshot</h2>
-<img src="http://hackathon.io.s3.amazonaws.com/screenshots/images/000/003/226/original/smilepay1.png?1477241150">
-<img src="http://hackathon.io.s3.amazonaws.com/screenshots/images/000/003/202/original/Screen_Shot_2016-10-23_at_9.45.25_AM.png?1477241150">
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-
-
-
-
-<h2>Our Team</h2>
-<ul>
-<li><a href="www.github.com/aaronkim5">Aaron Kim</a></li>
-  <li><a href="www.github.com/klvngnn">Kelvin Gann</a></li>
-  <li><a href="www.github.com/milliechan">Millie Chan</a></li>
-  <li><a href="www.github.com/holixsf">Luis De Castro</a></li>
-  <li><a href="www.github.com/ndavisonsf">Nicholas Davidson</a></li>
-</ul>
